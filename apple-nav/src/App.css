@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 120px;
+  background: rgba(0, 0, 0, 0.801);
+  
+}
+
+.Nav a {
+  color: #ffffff;
+  font-size: 16px;
+  opacity: .8;
+  padding:20px;
+
+}
+.NavLink {
+  text-decoration: none;
+}
+
+.active.NavLink {
+  color: #c6c6c8;
+}
